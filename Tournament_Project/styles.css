@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    font-size: large;
+}
+
+:root {
+    --purpleBackground: rgb(24, 13, 34);
+    --siviTekst: rgb(181, 181, 181);
+}
+
+body h1,
+p,
+label,
+form {
+    color: white;
+}
+
+.Navigacija {
+    background-color: black;
+    min-height: fit-content;
+    padding: 5px;
+    padding-inline-start: 20px;
+    padding-inline-end: 50px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 98%
+}
+
+.navigation_links {
+    width: 300px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    border-radius: 8px;
+    padding: 0px;
+    margin: 0;
+    width: 100px;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.Navigacija a {
+    color: rgb(181, 181, 181);
+    font-weight: normal;
+    font-size: smaller;
+    padding-top: 7px;
+}
+
+.Navigacija a:hover {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Welcome {
+    width: auto;
+    height: 1000px;
+    background-image: url("background13.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.Welcome h1,
+p {
+    margin: 0;
+}
+
+.Welcome h1 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.video_container {
+    position: relative;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--purpleBackground);
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#detach-button-host {
+    display: none !important;
+}
+
+#myVideoLoop {
+    width: 100%;
+    height: 100%;
+}
+
+#MuteBtn {
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: transparent;
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+#MuteBtn:hover {
+    background-color: rgb(86, 33, 135);
+    transition-duration: .4s;
+    font-size: 15px;
+}
+
+.textLogin {
+    padding-bottom: 30px;
+}
+
+.Login {
+    width: 50%;
+    position: absolute;
+    padding-bottom: 50px;
+    top: 28%;
+    left: 24%;
+    color: white;
+    background-color: rgba(42, 13, 41, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+form .text_field {
+    position: relative;
+    border-bottom: 2px solid var(--siviTekst);
+    margin: 30px 0;
+}
+
+.text_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    color: white;
+    background: none;
+    outline: none;
+}
+
+.text_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: var(--siviTekst);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.About {
+    background-color: var(--purpleBackground);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+}
+
+.About p,
+h2 {
+    color: var(--siviTekst);
+}
+
+.aboutTekst {
+    margin: 100px;
+}
+
+.choice {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice img {
+    object-fit: cover;
+    margin: 0;
+    border-radius: 50px;
+    width: 400px;
+    height: 550px;
+    box-shadow: 100px;
+}
+
+.centerLeft {
+    color: var(--siviTekst);
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    font-size: 18px;
+}
+
+.centerRight {
+    color: var(--siviTekst);
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    right: 18%;
+    font-size: 18px;
+}
+
+.choice img:hover+div {
+    transition-delay: 1sec;
+    transition: 2s;
+    visibility: visible;
+    color: white
+}
+
+.choice img:hover {
+    filter: brightness(20%);
+}

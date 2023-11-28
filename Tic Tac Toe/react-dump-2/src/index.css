@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif , BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 255, 255);
+  color: rgb(37, 35, 35);
+}
+
+code {
+  font-family: sans-serif, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.buttonGame {
+
+  width: 20vh;
+  padding: 10px 10px 10px 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px; /* Adjust the value based on your preference */
+  border: none;
+  border-radius: 8px; /* Adjust border radius for rounded corners */
+  cursor: pointer;
+  background-color: rgb(52, 161, 181); /* Adjust background color as needed */
+  color: #fff;
+  margin-top: 20px
+  
+
+}

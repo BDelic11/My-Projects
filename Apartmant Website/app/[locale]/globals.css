@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+    color: #333333;
+    font-family:'Courier New', Courier, monospace; 
+}
+
+
+

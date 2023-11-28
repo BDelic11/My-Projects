@@ -1,0 +1,52 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 80vh 
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    background-color: wheat;
+    height: 35px;
+    color: black;
+    margin-block: 10px;
+    width: 100%;
+    font-size: larger;
+}
+
+.title {
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.button {
+    width: 20vh;
+    padding: 10px 10px 10px 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px; /* Adjust the value based on your preference */
+    border: none;
+    border-radius: 8px; /* Adjust border radius for rounded corners */
+    cursor: pointer;
+    background-color: rgb(52, 161, 181); /* Adjust background color as needed */
+    color: #fff;
+    margin-top: 40px;
+}

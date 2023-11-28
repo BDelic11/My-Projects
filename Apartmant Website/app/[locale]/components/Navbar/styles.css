@@ -1,0 +1,18 @@
+.navbar-initial {
+    background-color:rgba(0, 0, 0,0.8);
+    transition: all;
+    transition-delay: 75ms;
+    transition-duration: 300ms;
+    transition: ease-in-out;
+    color: #EBE8E2;
+    font-size: larger;
+  }
+  
+  .navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all;
+    transition-delay: 75ms;
+    transition-duration: 300ms;
+    transition: ease-in-out;
+    color: #EBE8E2;
+  }
